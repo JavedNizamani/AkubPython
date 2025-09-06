@@ -1,1 +1,1 @@
-print("Testing First Program for Git")
+print("Testing First Program for Github")
