@@ -1,14 +1,25 @@
-import turtle
+from turtle import *
 
-my_turtle = turtle.Turtle(shape = "turtle")
+speed(1)
+bgcolor("light blue")
 
-my_turtle.speed(1)
-my_turtle.color("blue")
-my_turtle.width(5)
-my_turtle.up()
-my_turtle.forward(200)
-my_turtle.left(120)
-my_turtle.forward(200)
-my_turtle.left(120)
-my_turtle.forward(200)
-turtle.exitonclick()
+penup()
+goto(-150, -100)
+fillcolor("yellow")
+begin_fill()
+
+pendown()
+# fd(300)
+# left(120)
+# fd(300)
+# left(120)
+# fd(300)
+
+for i in range(3):
+    fd(300)
+    left(120)
+
+end_fill()
+hideturtle()
+
+exitonclick()
